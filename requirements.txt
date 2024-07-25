@@ -1,0 +1,5 @@
+gym==0.23.0
+ipython==8.17.2
+matplotlib==3.8.2
+numpy==2.0.1
+pygame==2.1.3
