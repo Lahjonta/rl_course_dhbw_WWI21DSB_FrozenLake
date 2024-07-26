@@ -1,15 +1,21 @@
 # WWI21DSB - Reinforcement Learning: FrozenLake Upgrade
 
-This project contains an upgraded version of the FrozenLake environment used in reinforcement learning experiments. The provided Jupyter Notebook demonstrates how to use the upgraded environment and perform various experiments.
+This project, created for the Reinforcement Learning course (WWI21DSB, 2024), enhances the classic FrozenLake environment. The upgraded version introduces several new features:
+
+-   Boosters: Special objects on the lake that increase the agent's step size.
+-   Weapons: Collectible items that allow the agent to defeat enemies.
+-   Enemies: Entities that chase the agent and can end the game if they catch it.
+
+These additions increase the difficulty level of reinforcement learning experiments, offering new challenges and opportunities for strategy development. 
+The agent is trained using Q-Learning in a non-slippery environment to facilitate a clearer understanding of the learning process.
 
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
-
+  
 ## Prerequisites
 
 Ensure you have the following software installed on your system:
